@@ -5,15 +5,15 @@ client.on('ready', () => {
 	console.log('I am ready!');
 });
 
-
+/*
 client.on('message', message => {
 	if (message.content === 'hello') {
 		message.reply('hey!');
 	}
 });
+*/
 
-/*
-client.on('message', function (user, userID, channelID, message, evt) {
+bot.on('message', function (user, userID, channelID, message, evt) {
 	
 	switch(message) {
 		case 'hello':
@@ -24,7 +24,7 @@ client.on('message', function (user, userID, channelID, message, evt) {
 			break;
 	}
 });
-*/
+
 
 
 
