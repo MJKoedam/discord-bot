@@ -1,6 +1,6 @@
 {
   "name": "Ecko",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Hi, I am an interface designed to answer your most desired questions, or just to talk with you.",
   "main": "bot.js",
   "scripts": {
@@ -8,6 +8,7 @@
   },
   "author": "MJ",
   "dependencies": {
-    "discord.js": "11.1.0"
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
   }
 }
