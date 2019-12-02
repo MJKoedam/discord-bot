@@ -13,7 +13,7 @@ client.on('message', message => {
 });
 */
 
-bot.on('message', function (user, userID, channelID, message, evt) {
+client.on('message', function (user, userID, channelID, message, evt) {
 	
 	switch(message) {
 		case 'hello':
