@@ -5,6 +5,14 @@ client.on('ready', () => {
 	console.log('I am ready!');
 });
 
+
+client.on('message', message => {
+	if (message.content === 'hello') {
+		message.reply('hey!');
+	}
+});
+
+/*
 client.on('message', function (user, userID, channelID, message, evt) {
 	
 	switch(message) {
@@ -16,6 +24,9 @@ client.on('message', function (user, userID, channelID, message, evt) {
 			break;
 	}
 });
+*/
+
+
 
 // THIS MUST BE THIS WAY
 client.login(process.env.BOT_TOKEN);
