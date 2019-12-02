@@ -3,9 +3,11 @@
   "version": "1.0",
   "description": "Hi, I am an interface designed to answer your most desired questions, or just to talk with you.",
   "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
   "author": "MJ",
   "dependencies": {
-    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
-    "winston": "^3.2.1"
+    "discord.js": "11.1.0",
   }
 }
