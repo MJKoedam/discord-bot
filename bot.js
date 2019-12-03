@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 	console.log('I am ready!');
-	bot.sendMessage('hello');
+	client.send('hello');
 });
 
 
